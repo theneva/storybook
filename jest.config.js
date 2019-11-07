@@ -80,7 +80,7 @@ module.exports = {
   coverageDirectory: 'coverage',
   setupFilesAfterEnv: ['./scripts/jest.init.js'],
   coverageReporters: ['lcov'],
-  testEnvironment: 'jest-environment-jsdom-thirteen',
+  testEnvironment: 'jest-environment-jsdom-fifteen',
   setupFiles: ['raf/polyfill'],
   testURL: 'http://localhost',
   modulePathIgnorePatterns: ['/dist/.*/__mocks__/'],
